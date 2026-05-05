@@ -23,7 +23,7 @@ jobs:
     - name: Run Pytest
       run: |
         cd backend
-        python -m pytest --cov=. --cov-report=term-missing
+        python -m pytest
 
   test-frontend:
     runs-on: ubuntu-latest
